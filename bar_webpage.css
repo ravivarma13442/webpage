@@ -1,0 +1,538 @@
+body
+{
+	margin:0px;
+	background-color: rgb(67, 96, 150);
+	font-family: 'Akaya Kanadaka', cursive;
+}
+
+/*----------Main-Header----------*/
+#main-header
+{
+	background:white url(https://ingrainedculture.com.au/wp-content/uploads/2020/07/177565_792b43e68df345d681099b0b68a71d22_mv2.png) repeat scroll center ;
+	background-size: contain;
+	padding:23px;
+	text-align:right;
+}
+#main-header h1
+{
+	margin:0px;
+	color:rgb(250, 189, 23);
+	font-size:40px;
+}
+
+/*----------Main-Navbar----------*/
+#main-nav
+{
+	background:linear-gradient(45deg,darkslategrey,brown);
+	padding:5px;
+	display:flex;
+	flex-direction:row;
+}
+#main-nav a
+{
+	color:white;
+	text-decoration:none;
+	margin:8px;
+	display:inline-block;
+	padding:10px 20px;
+}
+#main-nav a.active
+{
+	background:linear-gradient(45deg,grey,darkred);
+	border-radius:10px;
+	color:white;
+}
+#main-nav a:hover
+{
+	background:linear-gradient(45deg,grey,rgb(242,147,36));
+	border-radius:10px;
+	box-shadow:0 0 10px white;
+}
+.fa
+{
+	padding-right:5px;
+}
+
+
+/*----------Main-Section----------*/
+#main-section
+{
+	color:white;
+	text-align:center;
+	margin:15px 0px;
+}
+#main-section .main-section-article
+{
+	box-shadow:0 0 10px darkred;
+	width:330px;
+	height:500px;
+	margin:5px;
+	display:inline-grid;
+	border-radius:0px 30px 0px 30px;
+	transition:all 0.5s;
+}
+#main-section .main-section-article:hover
+{
+	width:340px;
+	cursor:pointer;
+}
+.main-section-article img
+{
+	width:260px;
+    margin-left: 35px;
+    height: 250px;
+
+}
+.main-section-article .main-section-text
+{
+	padding:10px;
+}
+
+/*----------Main-Section-News----------*/
+#main-section-news
+{
+	color:white;
+	width:80%;
+	margin:auto;
+}
+#main-section-news .main-section-news-article
+{
+	border:2px solid darkred;
+	box-shadow:0 0 10px darkred;
+	border-radius:20px;
+	margin:10px;
+	overflow:hidden;
+	text-align:center;
+}
+#main-section-news .main-section-news-article img
+{
+	width:500px;
+	height:300px;
+	box-shadow:0 0 10px darkred;
+	border-radius:20px;
+	transition:all 0.5s;
+}
+#main-section-news .main-section-news-article img:hover
+{
+	transform:scale(1.2,1.2);
+}
+#main-section-news .main-section-news-article h2
+{
+	background-color:darkred;
+	color:white;
+	margin:0px;
+	padding:10px;
+}
+
+
+footer {
+    background-image: url(https://www.tasteofhome.com/wp-content/uploads/2018/04/beer-aisle.jpg);
+    width: 1100px;
+    height: 120px;
+    margin: 30px auto;
+    border-radius: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+footer a{
+    /* width: 500px; */
+    height: 20px;
+    /* margin-right: 100px; */
+    margin-left: 100px;
+    /* background-color: rgb(233, 14, 14); */
+    color:white;
+    /* padding: 50px; */
+    border-radius: 40px 90px 40px 90px;
+    /* display: inline-block; */
+ }
+ footer a:hover{
+    background-color: rgba(243, 14, 14);
+    color: white;
+ }
+
+
+/* -----css for news page----- */
+
+/*----------Main-Section-News----------*/
+#news-main-section
+{
+	color:white;
+	width:80%;
+	margin:auto;
+}
+#news-main-section aside {
+	float: left;
+	/* width: 20px; */
+	/* height: 20px; */
+	padding: 40px;
+	border-radius: 50%;
+	background-color: rgba(141, 0, 0);
+	color: white;
+	position: relative;
+	top:  160px;
+	left: -60px;
+	text-align: center;
+	box-shadow: 5px 5px 10px black;
+	transition: all 1.8s;
+}
+#news-main-section aside :hover {
+	transform: rotate(360deg);
+}
+#news-main-section .news-main-section-article
+{
+	border:2px solid darkred;
+	box-shadow:0 0 10px darkred;
+	border-radius:20px;
+	margin:10px;
+	overflow:hidden;
+	text-align:center;	
+}
+#news-main-section .news-main-section-article img
+{
+	width:500px;
+	height:300px;
+	box-shadow:0 0 10px darkred;
+	border-radius:20px;
+	transition:all 0.5s;
+}
+#news-main-section .news-main-section-article img:hover
+{
+	transform:rotate(360deg);
+	width: 400px;
+}
+#news-main-section .news-main-section-article h2
+{
+	background-color:darkred;
+	color:white;
+	margin:0px;
+	padding:10px;
+}
+
+
+/* -----css for Gallery page----- */
+
+/*----------Main-Section-News----------*/
+#gallery-main-section
+{
+	width:80%;
+	margin:auto;
+}
+#gallery-main-section .gallery-main-section-article
+{
+	border:2px solid darkred;
+	box-shadow:0 0 10px darkred;
+	border-radius:20px;
+	margin:10px;
+	overflow:hidden;
+	text-align:center;	
+}
+#gallery-main-section .gallery-main-section-article img
+{
+	width:300px;
+	height:200px;
+	box-shadow:0 0 10px darkred;
+	border-radius:20px;
+	transition:all 0.5s;
+	margin: 7px;
+}
+#gallery-main-section .gallery-main-section-article img:hover
+{
+	transform: scale(0.8,0.8);
+	/* width: 400px; */
+	box-shadow: 0 0 20px rgb(190, 255, 39);
+}
+#gallery-main-section .gallery-main-section-article a:hover{
+	background-color: rgb(36, 72, 73);
+}
+
+#gallery-main-section .gallery-main-section-article h2
+{
+	background-color:darkred;
+	color:white;
+	margin:0px;
+	padding:10px;
+}
+
+
+
+/* -----css for about page----- */
+
+/*----------Main-Section-about----------*/
+#about-main-section .about-main-section-article
+{
+	border:2px solid darkred;
+	box-shadow:0 0 10px darkred;
+	border-radius:20px;
+	margin:10px;
+	overflow:hidden;
+	text-align:center;	
+	color: wheat;
+}
+#about-main-section .about-main-section-article img
+{
+	width:70%;
+	height:40%;
+	box-shadow:0 0 10px darkred;
+	border-radius:40px;
+	transition:all 0.5s;
+	margin: 20px;
+}
+#about-main-section .about-main-section-article h1
+{
+	background-color: rgb(155, 29, 29);
+	box-shadow:0 0 10px darkred;
+	border-radius:40px;
+	margin: 7px auto;
+	font-size: 35px;
+	width: 250px;
+}
+#about-main-section .about-main-section-article h3
+{
+	background-color: rgb(192, 38, 38);
+	border-radius:40px;
+	margin: 7px auto;
+	font-size: 35px;
+	width: 250px;
+}
+#about-main-section .about-main-section-article a{
+	margin: 30px;
+	padding: 10px;
+	font-size: 50px;
+}
+
+
+/* contact us page */
+#contact-main-section{
+	background:linear-gradient(360deg,darkred,black,rgb(114, 110, 110),black,rgb(126, 4, 4));
+	height: 90vh;	
+}
+#contact-main-section .contact-main-section-article
+{
+	border:2px solid rgb(197, 184, 184);
+	box-shadow:0 0 10px darkred;
+	border-radius:20px;
+	margin:10px;
+	overflow:hidden;
+	text-align:center;	
+	color: wheat;
+}
+#appoint > h2{
+    text-align: center;
+    margin: 0px auto ;
+    font-size: 30px;
+    font-weight: 100px;
+    padding: 30px;
+    background-color: rgb(99, 90, 90);
+    width: 555px;
+    border-radius: 5px 5px 50px 50px;
+    color:rgb(185, 14, 14);
+    margin-bottom: 20px ;
+    text-shadow: 5px 5px 2px rgb(19, 16, 16);
+}
+#appoint form{
+    margin: 10px ;
+    width: 500px;
+    font-family: 'IM Fell French Canon SC', serif;
+    margin-left: 350px;
+    line-height: 50px;
+}
+
+#appoint form input[type="submit"]{
+        background-color: rgb(163, 13, 13);
+        color: rgb(138, 126, 126);
+        padding: 10px;
+        margin-left: 350px;
+        font-size: 20px;
+        border-radius: 20px;
+    }
+#appoint form input[type="submit"]:hover{
+	color: rgb(236, 11, 11);
+	background-color: rgb(0, 0, 0);
+
+}
+
+
+#all{
+	margin: 40px auto;
+	width: 250px;
+	height: 350px;
+	text-align: center;
+	background: black;
+	padding: 20px;
+	border-radius: 20px;
+	box-shadow: 5px 5px 10px red;
+}
+input[type=text],input[type=email],input[type=password],input[type=number]{
+	border: none;
+	border-bottom: 2px solid white ;
+	background: none;
+	margin: 10px;
+	margin-left: 40px;
+	font-weight: bolder;
+	outline: none;
+	font-style: italic;
+	color: whitesmoke;
+}
+::placeholder{
+	color: whitesmoke;
+}
+select{
+	margin-left: 35px;
+	background: none;
+	outline: none;
+	border: none;
+	border-bottom: 2px solid white ;
+	width: 180px;
+	color: rgb(135, 212, 34);
+	font-weight: bolder;
+	margin-top: 10px;
+	font-style: italic;
+}
+input[type=submit]{
+	width: 100px;
+	background: rgb(173, 12, 12);
+	padding: 10px;
+	margin: 15px;
+	border-radius: 20px;
+	font-size: 20px;
+	outline: none;
+	border: none;
+}
+input[type=submit]:hover{
+	cursor: pointer;
+	background-color: rgb(109, 94, 94);
+	color: rgb(250, 0, 0);
+	font-size: 20px;
+
+}
+.icon{
+	background-color: rgb(207, 26, 26);
+	font-size: 50px;
+	margin-top: -45px;
+	width: 60px;
+	border-radius: 50%;
+	margin-left: 95px;
+	color: black;
+}
+
+
+@media (max-width:500px)
+{
+	#main-nav
+	{
+		flex-direction:column;
+	}
+	#main-section-news .main-section-news-article img
+	{
+		width:200px;
+	}
+	footer{
+		display: none;
+		/* width: 400px; */
+	}
+
+	#appoint form{
+		width: 80px;
+		margin-left: -450px;
+		border:1px solid whitesmoke;
+		padding:0px;
+		margin: 0px;
+		line-height: 0px;
+	}
+	#appoint form tr,td{
+		width: 80px;
+		margin-left: -450px;
+		padding: 0px;
+		margin: 0px;
+		line-height: 0px;
+
+	}
+	#appoint > h2{
+		width: 100px;
+	}
+}
+@media (max-width:600px)
+{
+   #main-nav
+   {
+	   flex-direction:column;
+   }
+   footer{
+	   /* width: 100px; */
+	   display: none;
+   }
+
+   #appoint form{
+	width: 100px;
+	margin-left: -180px;
+	}
+	#appoint form tr,td{
+	width: 100px;
+	}
+	#appoint > h2{
+		width: 300px;
+	}
+
+
+}
+@media (max-width:750px)
+{
+   #main-nav
+   {
+	   flex-direction:column;
+   }
+   #main-section-news .main-section-news-article img
+   {
+	   width:400px;
+   }
+   footer{
+	   /* display: none; */
+	   width: 500px;
+   }
+   footer a{
+	   margin-left: 10px;
+   }
+
+   #appoint form{
+	width: 100px;
+	margin-left: -120px;
+	}
+	#appoint form tr,td{
+	width: 100px;
+	}
+
+}
+
+
+@media (min-width:751px) and (max-width:1130px)
+{
+   #main-nav
+   {
+	   flex-direction:column;
+   }
+   #main-section-news .main-section-news-article img
+   {
+	   width:500px;
+   }
+   footer{
+	   /* display: none; */
+	   width: 540px;
+   }
+   footer a{
+	   margin-left: 30px;
+   }
+   #appoint form{
+	width: 200px;
+	margin-left: 30px;
+	line-height: 50px;
+	}
+	#appoint form tr,td{
+	width: 200px;
+	/* margin-left: 10px; */
+	line-height: 50px;
+	}
+
+}
